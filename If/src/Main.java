@@ -118,7 +118,7 @@ public class Main {
 			int A = 7;
 			int B = 7;
 
-//			if( && ) {
+//			if() {
 //				System.out.println("AとBが7");
 //			}else if(){
 //			    System.out.println("Aだけ7");
