@@ -90,10 +90,6 @@ public class Main {
 //			      （文字列の比較には==ではなく、equalsメソッドを使用します。）
 			String name = "Aさん";
 			String address = "288769";
-
-//			if(name.equals(ここに記載) && address.equals(ここに記載)) {
-//				System.out.println("A");
-//			}
 		}
 
 
@@ -104,9 +100,6 @@ public class Main {
 //			◻️問８ nameとaddressがどちらかが正しければ"A"と出力します。（コードのコメントアウトを外してください）
 			String name = "Aさん";
 			String address = "288769";
-
-//			if(name.equals("Bさん") ここに記載 address.equals("288769")) {
-//				System.out.println("A");
 //			}
 		}
 
@@ -117,14 +110,6 @@ public class Main {
 //			       Bだけが7の場合は、"Bだけ7"と出力します。（コードのコメントアウトを外してください）
 			int A = 7;
 			int B = 7;
-
-//			if() {
-//				System.out.println("AとBが7");
-//			}else if(){
-//			    System.out.println("Aだけ7");
-//			}else if(){
-//			    System.out.println("Bだけ7");
-//			}
 		}
 
 	}
