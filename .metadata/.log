@@ -430,3 +430,58 @@ java.lang.NullPointerException: Cannot invoke "java.net.URI.toString()" because 
 
 !ENTRY mergedoc.encoding 2 0 2021-07-10 11:59:29.490
 !MESSAGE リソース '/String-Array/src/Main.java' が存在しません。
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-10 12:08:24.246
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-10 12:08:24.248
+!MESSAGE buffering callback sts4.classpath.IMhUHwdW GetPrimeNumber true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-10 12:08:24.248
+!MESSAGE executing callback sts4.classpath.IMhUHwdW 1 batched events
+
+!ENTRY org.eclipse.core.resources 4 2 2021-07-10 12:08:24.249
+!MESSAGE プラグイン "org.eclipse.core.resources" からのコードの起動で問題が発生しました。
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.net.URI.toString()" because the return value of "org.eclipse.core.resources.IProject.getLocationURI()" is null
+	at org.eclipse.lsp4e.LSPEclipseUtils.toWorkspaceFolder(LSPEclipseUtils.java:790)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$10(LanguageServerWrapper.java:497)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at org.eclipse.lsp4e.LanguageServerWrapper.toWorkspaceFolderEvent(LanguageServerWrapper.java:491)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$0(LanguageServerWrapper.java:169)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:380)
+	at org.eclipse.core.internal.resources.Workspace.checkpoint(Workspace.java:575)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.lambda$0(PerformChangeOperation.java:263)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:295)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:94)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-10 12:08:24.261
+!MESSAGE executing callback sts4.classpath.IMhUHwdW SUCCESS [終了しました]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-10 12:09:17.821
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-10 12:09:17.824
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-10 12:09:17.826
+!MESSAGE buffering callback sts4.classpath.IMhUHwdW Get-PrimeNumber false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-10 12:09:17.827
+!MESSAGE executing callback sts4.classpath.IMhUHwdW 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-10 12:09:17.848
+!MESSAGE executing callback sts4.classpath.IMhUHwdW SUCCESS [終了しました]
