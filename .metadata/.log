@@ -1227,3 +1227,15 @@ java.lang.NullPointerException: Cannot invoke "java.net.URI.toString()" because 
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-14 23:25:16.924
 !MESSAGE executing callback sts4.classpath.NYaHxecW SUCCESS [終了しました]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-14 23:27:23.282
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.NYaHxecW
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-14 23:27:23.286
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.NYaHxecW
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-14 23:27:23.287
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-14 23:27:23.288
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.NYaHxecW => OK
