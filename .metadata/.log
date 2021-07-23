@@ -2655,3 +2655,29 @@ Binding(COMMAND+-,
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 19:07:26.525
 !MESSAGE executing callback sts4.classpath.XgKekvfH SUCCESS [終了しました]
+
+!ENTRY org.eclipse.ui 2 2 2021-07-23 19:09:59.893
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 19:10:46.757
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.XgKekvfH
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 19:10:46.760
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.XgKekvfH
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 19:10:46.762
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-23 19:10:46.764
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.XgKekvfH => OK
+
+!ENTRY org.eclipse.ui.ide 4 4 2021-07-23 19:10:52.880
+!MESSAGE ワークスペースの保存の問題
+
+!ENTRY org.eclipse.ui.ide 2 1 2021-07-23 19:10:52.881
+!MESSAGE ワークベンチの状態を保存中に問題が発生しました。
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2021-07-23 19:10:52.881
+!MESSAGE 'MaxNumber-Iteration' のプロジェクト記述ファイル (.project) がありませんでした。 このファイルには、プロジェクトに関する重要な情報が含まれています。 新しいプロジェクト記述ファイルが作成されましたが、プロジェクトに関する情報の一部が破損している可能性があります。
+
+!ENTRY org.eclipse.core.resources 2 10035 2021-07-23 19:10:53.855
+!MESSAGE ワークスペースは、このセッションで変更が保存されずに終了します。
